@@ -1,4 +1,4 @@
-const API_KEY = "0ffd2fad7618c12b83b5e4d0673397e2";
+const OPENWEATHERMAP_API_KEY = "0ffd2fad7618c12b83b5e4d0673397e2";
 
 export const fetchWeather = async (lat, lon) => {
   const res = await fetch(
