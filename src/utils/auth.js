@@ -2,9 +2,9 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, signOut as firebaseSignOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
+  apiKey: "AIzaSyBxANVPOc9c_Q81fiy64B1SEmo5ZR9sEfc",
+  authDomain: "weather-app-dc7fa.firebaseapp.com",
+  projectId: "weather-app-dc7fa",
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
